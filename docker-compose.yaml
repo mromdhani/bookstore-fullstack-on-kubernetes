@@ -38,7 +38,7 @@ services:
         context: bookstore-front
         dockerfile: Dockerfile
       ports: 
-        - '4200:80'
+        - '8888:80'
       depends_on:
         - spring-service
       networks:
